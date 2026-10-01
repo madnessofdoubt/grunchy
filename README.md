@@ -17,7 +17,7 @@ and install it on the phone (`adb install -r grunchy-1.0.apk`), or open it on th
 
 ## Layout
 
-``
+```
 app/src/main/java/com/grunchy/workout/
 ├── MainActivity.kt            single activity, ThemeMMD, no transitions
 ├── model/Models.kt            Exercise, Routine, Session, Settings (serializable state)
@@ -34,8 +34,9 @@ app/src/main/java/com/grunchy/workout/
     ├── Controls.kt            ValueDropdown, WeightPicker, StepButton, …
     ├── ScrollList.kt          the scrolling list + scrollbar (MMD's look, finer gestures)
     └── *Screen.kt             Plan, RoutineEditor, Workout, History, SessionDetail,
-                               Progress (Stats), Settings
-                               ``
+                               Progress (Stats), Graph, Settings
+
+```
 
 ## Licence
 
