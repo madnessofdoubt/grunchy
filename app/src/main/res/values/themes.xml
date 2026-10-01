@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+      E Ink friendly shell theme:
+      * no window transition animations (each frame of a fade is a full panel refresh),
+      * white window background so the first frame the panel paints is already correct,
+      * no action bar (Compose draws everything).
+    -->
+    <style name="Theme.Grunchy" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:windowContentTransitions">false</item>
+    </style>
+</resources>

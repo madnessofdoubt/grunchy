@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Grunchy's icon is a potter's vase: the name comes from the Bulgarian "grunchar" — potter.
+  Flat black on white, no gradients or highlights, because on a 1-bit E Ink launcher
+  anything softer dithers into noise. Everything sits inside the 66 dp adaptive-icon safe
+  zone of the 108 dp viewport (x 36-72, y 30-84).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- lip -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M42,30h24v7h-24z" />
+
+    <!-- neck -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M47,37h14v8h-14z" />
+
+    <!-- body: widest through the middle, tucked back in above the foot -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M47,45 L36,58 L36,65 L44,76 L64,76 L72,65 L72,58 L61,45 Z" />
+
+    <!-- foot -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M44,76 L64,76 L66,84 L42,84 Z" />
+</vector>
