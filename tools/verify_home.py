@@ -42,7 +42,9 @@ if icons:
     print("after ⓘ:", shown)
     check(ABOUT in shown, f"the ⓘ shows exactly: {ABOUT!r}")
     check(any("грънчар" in t for t in shown), "the Cyrillic renders as letters")
-    check(not any("potter" in t and "granchar" not in t for t in shown), "only the one sentence in the box")
+    # Compare against the expected string itself, never a second copy of its wording: this check
+    # broke the day the romanisation became IPA, because it hard-coded the old spelling.
+    check(not any("potter" in t and t != ABOUT for t in shown), "only the one sentence in the box")
     ui.shot("r02_about_box")
     ui.tap_where(lambda t, x1, y1, x2, y2: t == "Close")
     time.sleep(1.8)
