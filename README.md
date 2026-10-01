@@ -11,6 +11,11 @@ one tap away, where it does not compete with the title.
 The UI is built on [Mudita Mindful Design (MMD)](https://github.com/mudita/MMD) 1.0.2, the
 E Ink optimised Material 3 component library Mudita ships for the Kompakt.
 
+## Download
+
+Grab `grunchy-1.0.apk` from [Releases](https://github.com/madnessofdoubt/grunchy/releases/latest)
+and install it on the phone (`adb install -r grunchy-1.0.apk`), or open it on the device itself.
+
 ## Screenshots
 
 Taken on the Kompakt itself: 1-bit, no animation, 480 x 800.
