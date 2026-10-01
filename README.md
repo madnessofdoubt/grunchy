@@ -15,7 +15,6 @@ I have not written a single line of code manually as I do not know how and I did
 Grab `grunchy-1.0.apk` from [Releases](https://github.com/madnessofdoubt/grunchy/releases/latest)
 and install it on the phone (`adb install -r grunchy-1.0.apk`), or open it on the device itself.
 
- HEAD
 ## Flow
 
 Choose your desired rep-ranges, weight pickers and whether you prefer kg or lbs in settings. Then, either start a freestyle workout (unplanned) and start logging your exercises and sets, or create a lasting routine which you can start over and over again. Once you complete your workout, it is saved under History. Your best sets are calculated and an estimated 1RM is inferred from them, which is then used to draw a graph to give you a visual idea of your progress!
